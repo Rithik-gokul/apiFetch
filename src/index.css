@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+
+}
+
+/* navbar */
+
+.Navbar{
+  background: #21222A;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem;
+}
+
+/* content */
+.Main{
+  padding: 3rem 1rem;
+  display: flex;
+
+}
+ 
+.swim{
+  height: 100%;
+  width: 100%;
+  border-radius: .5rem;
+ 
+}
+
+.Name{
+  font-weight: 1000;
+  font-size: medium;
+}
+
+.Email{
+  color: blueviolet;
+}
+
+/* Display */
+
+.card{
+  display: flex;
+  overflow: scroll;
+  text-overflow: ellipsis;
+  flex: 0 0 auto;
+}
